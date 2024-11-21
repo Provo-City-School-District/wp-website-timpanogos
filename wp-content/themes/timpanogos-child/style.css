@@ -48,6 +48,7 @@ a {
 
 a:hover {
 	color: var(--link-hover-color);
+	text-decoration: underline;
 }
 
 #mainHeader #cludo-search-form .search-submit {
@@ -302,7 +303,7 @@ Main Menu
 }
 
 #mainMenu>ul>li>a:hover {
-	color: #fff;
+	color: var(--link-hover-color);
 }
 
 .mega-menu {
@@ -437,7 +438,7 @@ sidebar Area
 
 #mainSidebar a:hover,
 .imagelist li a:hover span {
-	color: var(--link-hover-color);
+	color: var(--secondary-color);
 }
 
 /*================================================================================================================
